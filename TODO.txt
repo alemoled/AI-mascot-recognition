@@ -1,0 +1,4 @@
+get dataset
+test model
+evaluate
+report

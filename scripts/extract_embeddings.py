@@ -44,7 +44,7 @@ def extract_embeddings(data_dir, output_dir):
             except Exception as e:
                 print(f"Error with {img_file}: {e}")
 
-        # Save the average embedding for this fursuiter
+        # Save the average embedding for this mascot
         if embeddings:
             avg_embedding = np.mean(embeddings, axis=0)
             save_path = os.path.join(output_dir, f"{character}.npy")
